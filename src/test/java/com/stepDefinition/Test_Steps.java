@@ -30,6 +30,7 @@ public class Test_Steps {
 		driver.get("http://adactinhotelapp.com");
 		driver.manage().window().maximize();
 		logPg = new LoginPage(driver);
+		System.out.println("user is in hotel page");
 	}
 
 	@When("User enters Username")
@@ -39,6 +40,7 @@ public class Test_Steps {
 //		uname.sendKeys("vasuvespag");
 
 		logPg.enterUsername("vasuvespag");
+		System.out.println("user entered username");
 
 	}
 
