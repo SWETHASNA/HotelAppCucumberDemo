@@ -65,6 +65,7 @@ public class Test_Steps {
 		WebElement Greeting = driver.findElement(By.name("username_show"));
 		String actualOutput = Greeting.getAttribute("value");
 		assertEquals(ExpectedOutput, actualOutput);
+		System.out.println("user is in hotel page");
 	}
 
 //	    @When("User selects location from the dropdown")
