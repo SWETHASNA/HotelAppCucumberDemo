@@ -54,6 +54,7 @@ public class Test_Steps {
 	public void user_clicks_on_login_button() {
 		// driver.findElement(By.className("login_button")).click();
 		logPg.clickloginBtn();
+		System.out.println("User is on LOgin page");
 	}
 
 	@Then("Login is Successful")
